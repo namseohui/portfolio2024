@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project003</title>
+
+    <!-- 외부스타일시트 연결 -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 폰트어썸 연결 -->
+    <script src="https://kit.fontawesome.com/3b94dc6e6c.js" crossorigin="anonymous"></script>
+
+    <!-- 제이쿼리CDN -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <!-- 외부스크립트 연결 -->
+    <script src="js.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <div class="intro">
+        <div class="intro_inner">
+
+            <h2>Kiss of Life</h2>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="menu1"><p>Kiss of Life</p></div>
+        <div class="menu2"><p>MEMBER</p></div>
+        <div class="menu3"><p>ALBUM</p></div>
+        <div class="menu4"><p>GALLERY</p></div>
+    
+        <section>
+            <!-- on값 임시설정 -->
+            <!--첫번째아티클 멤버소개 -->
+            <article class="member">
+                <aside class="member_inner1">
+                    <div class="member_all">
+                        <div class="member_all_inner">
+                            <div class="member_all_txt">
+                                <h2>Kiss of Life</h2>
+                                <p>인공호흡이라는 뜻으로
+                                    <br>자신들의 음악과 매력으로 K-POP scene에
+                                    <br>새 숨을 불어넣겠다는 큰 포부를 담고 있다
+                                </p>
+                                <em>데뷔 2023.07.05</em>
+                            </div>
+                        
+                            <div class="member_all_click">
+                                <div class="member_all_clickk">
+                                    <p>Click!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <aside class="member_inner2">
+                    <canvas id="starCanvas"></canvas>
+                    <div class="mouse"></div>
+
+                    <div class="clickBox">
+                        <div class="click1"></div>
+                        <div class="click2"></div>
+                        <div class="click3"></div>
+                        <div class="click4"></div>
+                    </div>
+    
+                    <div class="member_txt">
+                        <div class="member_b pp">
+                            <div class="member_img">
+                                <img src="img/member_b.jpg" alt="">
+                            </div>
+                            <div class="member_name">
+                                <h2>Belle<span>04.03.20</span></h2>
+                                <p>Bell, a member of 'Kiss of Life', is the team's main vocalist
+                                    <br>and has solid basic skills such as voice volume, timbre, breathing control,
+                                    <br>and wide vocal range. Even though she only recently debuted,
+                                    <br>she is evaluated as one of the best main vocalists in girl groups of her generation.</p>
+                            </div>
+                        </div>
+                        <div class="member_n">
+                            <div class="member_img">
+                                <img src="img/member_n.jpg" alt="">
+                            </div>
+                            <div class="member_name">
+                                <h2>Natty<span>02.05.30</span></h2>
+                                <p>Natty, a member of 'Kiss of Life', is the team's main dancer
+                                    <br>She also has talent and interest in choreography production and participates
+                                    <br>in choreography directing. She is being mentioned as the top tier
+                                    <br>main dancer among 4th generation girl groups.</p>
+                            </div>
+                        </div>
+                        <div class="member_j">
+                            <div class="member_img">
+                                <img src="img/member_j.jpg" alt="">
+                            </div>
+                            <div class="member_name">
+                                <h2>Julie<span>00.03.29</span></h2>
+                                <p>Julie, a member of 'kiss of life', is in charge of the leader, main rapper,
+                                    <br>and lead dancer within the team. She is surprising with her powerful dance style
+                                    <br>that contrasts with her small stature, and shows off his relaxed
+                                    <br>and natural facial expressions.</p>
+                            </div>
+                        </div>
+                        <div class="member_h">
+                            <div class="member_img">
+                                <img src="img/member_h.jpg" alt="">
+                            </div>
+                            <div class="member_name">
+                                <h2>Haneul<span>05.05.25</span></h2>
+                                <p>Haneul, a member of 'Kiss of Life', is the team's lead vocalist
+                                    <br>The biggest advantage is that it has a clear, simple, yet solid tone.
+                                    <br>She is 169cm tall and has thin and long limbs, so her dance moves are cool
+                                    <br>and she can do a wide range of dance genres</p>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </article>
+
+            <!-- 두번째아티클 앨범소개 -->
+            <article class="album">
+                <div class="album_cd">
+                    <ul>
+                        <li class="album_cd1 on">
+                            <p><span>Click</span><i class="fa-solid fa-down-long"></i></p>
+                            <img src="img/album_1.png" alt="" class="img1">
+                            <img src="img/album_11.png" alt="" class="img11 alimg">
+                        </li>
+                        <li class="album_cd2">
+                            <p><span>Click</span><i class="fa-solid fa-down-long"></i></p>
+                            <img src="img/album_2.png" alt="">
+                            <img src="img/album_22.png" alt="" class="img22 alimg">
+                        </li>
+                        <li class="album_cd3">
+                            <p><span>Click</span><i class="fa-solid fa-down-long"></i></p>
+                            <img src="img/album_3.png" alt="">
+                            <img src="img/album_33.png" alt="" class="img33 alimg">
+                        </li>
+                        <li class="album_cd4">
+                            <p><span>Click</span><i class="fa-solid fa-down-long"></i></p>
+                            <img src="img/album_4.png" alt="">
+                            <img src="img/album_44.png" alt="" class="img44 alimg">
+                        </li>
+                    </ul>
+                </div>
+                <div class="album_btn">
+                    <div class="album_btn_cd"><img src="img/album_btn.png" alt=""></div>
+                    <div class="album_btn_bar"></div>
+                </div>
+
+                <div class="popup1 popup">
+                    <div class="xx"><i class="fa-solid fa-xmark"></i></div>
+                    <div class="popup_inner">
+                        <img src="img/popup1.jpg" alt="">
+                        <h2>STICKY</h2>
+                        <h3>2024.07.03</h3>
+                        <p>한 번만 들어도 모든 이의 귀를 사로잡는 멜로디와 매력적인 스트링,
+                            <br>아프로비트 리듬의 그루브와 에너지가 돋보이는 타이틀 곡
+                            <br>'Sticky'는 청량하고 시원한 가창과 자유롭고 건강미 넘치는
+                            <br>퍼포먼스로 KISS OF LIFE의 새롭고 독특한 매력을 선사한다.
+                            <br>역동적인 원테이크가 인상적인 퍼포먼스 기반의 뮤직비디오 또한
+                            <br>한층 더 뜨거운 에너지를 배가하며 우리들의 눈과 귀를 사로잡는다.
+                        </p>
+                    </div>
+                </div>
+                <div class="popup2 popup">
+                    <div class="xx"><i class="fa-solid fa-xmark"></i></div>
+                    <div class="popup_inner">
+                        <img src="img/popup2.jpg" alt="">
+                        <h2>MIDAS TOUCH</h2>
+                        <h3>2024.07.01</h3>
+                        <p>모든 이에게 봄바람처럼 한번쯤 반드시 찾아오는 사랑.
+                            <br>그 사랑에 눈물을 흘리기도, 아파하기도 하지만 그럼에도 불구하고
+                            <br>가장 아름답고 고귀한 사랑에 대해 꾸밈없이 이야기 한다.
+                            <br>그 사랑의 대상이 '나', 혹은 '타인' 그리고 '삶'
+                            <br>그 어떤 것이 될 지라도 남의 시선을 두려워하기 보다는
+                            <br>자유롭고 진실되게 사랑하자는 메시지가 담겨 있다.
+                    </div>
+                </div>
+                <div class="popup3 popup">
+                    <div class="xx"><i class="fa-solid fa-xmark"></i></div>
+                    <div class="popup_inner">
+                        <img src="img/popup3.jpg" alt="">
+                        <h2>Born to be XX</h2>
+                        <h3>2023.11.08</h3>
+                        <p>힙합과 락의 조화가 돋보이는 강렬한 기타 리프 기반의 곡 'Bad News'와
+                            <br>감각적인 비트가 인상적인 Soul/R&B 곡 'Nobody Knows' 서로 다른
+                            <br>두 곡을 더블 타이틀로 구성하여 독특하고 유기적인 호흡을 만든다.
+                            <br>'진실' 혹은 '루머'를 구분하는 '관점의 양면성'이라는 주제를 날카롭지만
+                            <br>익살스럽게 표현하는 가사, 그리고 이를 연출하는 두 편의 뮤직비디오는
+                            <br>대중들에게 또 다른 숨겨진 감상 포인트를 선사한다.
+                        </p>
+                    </div>
+                </div>
+                <div class="popup4 popup">
+                    <div class="xx"><i class="fa-solid fa-xmark"></i></div>
+                    <div class="popup_inner">
+                        <img src="img/popup4.jpg" alt="">
+                        <h2>KISS OF LIFE</h2>
+                        <h3>2023.07.05</h3>
+                        <p>오리지널을 지향하는 음악들로 총 여섯 트랙이 실린 KISS OF LIFE의
+                            <br>데뷔 앨범은 대중들로 하여금 멤버들의 뚜렷한 개성은 물론, 진짜
+                            <br>아티스트들이 모인 그룹의 아이덴티티를 더욱 가까이서 느낄 수 있게 한다.
+                            <br>멤버들이 가진 가장 자연스러운 그대로의 매력을
+                            <br>솔로 곡들을 통해 먼저 선보이고, 이후 그룹 곡에서 보이는
+                            <br>4인의 조화는 대중들에게 또 다른 감상의 즐거움을 선사한다.
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </article>
+
+            <!-- 세번째아티클 -->
+            <article class="gallery">
+                <video loop autoplay muted>
+                    <source src="img/video_sticky.mp4" type="video/mp4">
+                </video>
+
+                <aside class="circle">
+                    <figure class="face1">
+                        <h1>Kiss of Life</h1>
+                        <div class="inner">
+                            <div></div>
+                        </div>
+                    </figure>
+
+                    <figure class="face2">
+                        <h1>Photo_Belle</h1>
+                        <div class="inner">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </figure>
+
+                    <figure class="face3">
+                        <h1>Photo_Natty</h1>
+                        <div class="inner">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </figure>
+
+                    <figure class="face4">
+                        <h1>Photo_Julie</h1>
+                        <div class="inner">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </figure>
+
+                    <figure class="face5">
+                        <h1>Photo_Haneul</h1>
+                        <div class="inner">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </figure>
+
+                    <figure class="face6">
+                        <h1>Awards</h1>
+                        <div class="inner">
+                            <div>
+                                <h2>AWARDS</h2>
+                                <ul>
+                                    <li>2024 제21회 한국대중음악상 올해의 신인상</li>
+                                    <li>2024 써클차트 2023 new artist of next generation상</li>
+                                    <li>2024 대한민국 퍼스트브랜드 대상 신인상</li>
+                                    <li>2024 제33회 서울가요대상 뉴웨이브 스타상</li>
+                                    <li>2023 제11회 대한민국 한류대상 라이징 스타상</li>
+                                    <li>2023 멜론 뮤직 어워드 1theK 글로벌 아이콘</li>
+                                    <li>2023 제31회 문화연예대상 K-POP 부문 신인상</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </figure>
+
+                    <figure class="face7">
+                        <h1>News</h1>
+                        <div class="inner">
+                            <div class="news1">
+                                <img src="img/news1.jpg" alt="">
+                                <div>
+                                    <h2>키스오브라이프,<br>어떻게 새 '중소의 기적' 됐나</h2>
+                                    <p>데뷔 1년여 만 '스티키'로 커리어 하이... 데뷔 첫 음악방송 1위까지
+                                        <br>'중소 기획사 출신' 한계 딛고 호성적, 차별화 된 음악색 통했다
+                                        <br><span>2024.07.29</span>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                            <div class="news2">
+                                <ul>
+                                    <li><img src="img/news2.jpg" alt=""><p>폭염 날린 시원한 무대<span>2024.07.28</span></p></li>
+                                    <li><p>'대세' 키스오브라이프가<br>말하는 '핫걸'이란?<span>2024.07.25</span></p><img src="img/news3.jpg" alt=""></li>
+                                    <li><img src="img/news4.jpg" alt=""><p>'스티키'로 음방 2관왕<span>2024.07.21</span></p></li>
+                                </ul>
+                            </div>                
+                            <div class="news3">
+                                <ul>
+                                    <li>키스오브라이프, '데뷔 1년, 무섭게 성장중'<span>2024.07.30</span></li>
+                                    <li>걸그룹 '키스오브라이프' 올여름 돌풍<span>2024.07.29</span></li>
+                                    <li>'요즘 대세' 키오프 나띠, 과감한 화보 공개<span>2024.07.16</span></li>
+                                    <li>'가요대전' 대세 서머퀸 등극<span>2024.07.04</span></li>
+                                    <li>한여름 무더위 날리는 시원한 무대<span>2024.06.22</span></li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </figure>
+
+                    <figure class="face8">
+                        <h1>Concert</h1>
+                        <div class="inner">
+                            <div>
+                                <h2>RAPBEAT 2024</h2>
+                                <h3>2024.09.01</h3>
+                            </div>
+                            <div>
+                                <h2>DREAM CONCERT</h2>
+                                <h3>2024.08.10</h3>
+                            </div>
+                            <div>
+                                <h4>WATER<br>BOMB<br>YEOSU</h4>
+                                <h5>2024.08.31</h5>
+                            </div>
+                            <div>
+                                <h4>WATER BOMB SOKCHO</h4>
+                                <h5>2024.08.17</h5>
+                            </div>
+                            <div>
+                                <h4>WATER<br>BOMB<br>DAEHEON</h4>
+                                <h5>2024.08.10</h5>
+                            </div>
+                            
+                        </div>
+                    </figure>
+
+                </aside>
+
+
+
+            </article>
+
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
