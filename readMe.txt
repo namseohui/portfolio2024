@@ -14,9 +14,17 @@ project3_kiss of life(인물형) : 디자인, 퍼블리싱 - 신규제작
   - 갤러리 구조
   - 좌우 슬라이드
   - keyframe
+  - setInterval
+  - trigger
 
 3. 
 4. 
 
 - 작업기간 : 70h 
 - 
+
+
+
+ 프로필
+- 스킬정보
+- 본인을 나타내는 키워드 땅땅땅
