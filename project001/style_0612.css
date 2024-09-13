@@ -1,0 +1,759 @@
+/* 언어설정 */
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*  font-family: "inter", "Poppins", sans-serif; */
+
+/* 초기설정 */
+* {margin: 0; padding: 0;}
+ul, ol {list-style: none;}
+a {text-decoration: none;
+color: #000;}
+img {vertical-align: bottom;}
+
+
+/* 해더설정 */
+header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-bottom: rgba(36, 68, 48, 0.5) 1px solid;
+    z-index: 9999;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+   
+    width: 100%;
+}
+
+.header_inner h1 {
+    width: 10%;
+}
+.header_inner nav {
+    width: 90%;
+}
+.header_inner nav ul {
+    font-size: 19px;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.header_inner nav ul li {
+ padding: 30px;
+ transition: all 0.8s;
+}
+.header_inner h1 a {
+    color: #373737;
+    
+}
+.header_inner nav ul li:hover {
+    background-color: rgba(36, 68, 48);
+}
+.header_inner nav ul li:hover a {
+    color: #fff;
+}
+
+
+/* ★★★★ 호버했을때 li 전체 색 변할때 사이즈 100프로 어떻게 줘야하는지 */
+
+
+
+/* 헤더네비설정 */
+nav {
+    /* background-color: #fff; */
+    /* width: calc(100% - 60px); */
+}
+nav ul {
+    display: flex;
+}
+nav li {}
+nav a{}
+nav i{}
+
+
+
+/* 전체섹션구분 */
+header {background-color: #fff;}
+section:nth-child(1) {background-color: #244430;
+    overflow: hidden;}
+section:nth-child(2) {background-color: #fff;
+height: 750px;}
+section:nth-child(3) {}
+section:nth-child(4) {background-color: #aaa;}
+section:nth-child(5) {background-color: #F6F6F6;}
+section:nth-child(6) {background-color: #fff;}
+section:nth-child(7) {background-color: #F6F6F6;}
+footer {background-color: #666;}
+section {padding: 80px 0px;}
+
+
+
+/* 전체타이틀박스 설정 */
+.titleBox {
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    }
+.titleBox h2 {
+    font-size: 35px;
+    font-weight: bold;
+    /* text-align: center; */
+    padding: 30px 0;
+}
+.titleBox p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    /* text-align: center; */
+}
+
+.titleBox span {
+    font-size: 24px;
+}
+
+/* 전체리스트박스 설정 */
+.listBox {}
+
+
+
+
+
+
+
+
+/* 첫번째섹션설정 메인화면설정 */
+section:nth-child(1) {
+    width: 100%;
+    height: 900px;
+    padding-bottom: 0px;
+    /* background-image: url(img/main_bg.png);
+    background-size: cover;
+    background-position: center right; */
+}
+
+.main_inner {
+    display: flex;
+    height: 100%;
+    justify-content:flex-start;
+    align-items: center;
+}
+.main_inner .hero {
+    color: #fff;
+    width: 40%;
+    margin-left: 80px;
+    position: relative;
+    z-index: 2;
+}
+.main_inner .img {
+    width: 60%;
+    
+}
+
+.main_inner .hero div:nth-child(1) {line-height: 120px; margin-bottom: 50px;}
+.main_inner .hero div:nth-child(2) {}
+.main_inner .hero div:nth-child(3) {line-height: 30px;}
+
+
+/* 메인이미지설정 */
+
+.main_inner .img{
+    position: relative;
+}
+
+.main_inner .img .bgimg{
+    width: 100%;
+    height: 900px;
+    position: relative;
+  
+}
+
+.main_inner .img .bgimg .imgone {
+    position: absolute;
+    top: -230px;
+    right: 340px;
+}
+.main_inner .img .bgimg .imgtwo {
+    position: absolute;
+    top: 150px;
+    right: -100px;
+    z-index: 0;
+}
+.main_inner .img .bgimg .imgthr {
+    position: absolute;
+    top: -450px;
+    right: -750px;
+    
+}
+.main_inner {}
+
+.main_inner h3 {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 3px;
+}
+.main_inner h2 {
+    font-size: 170px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+.main_inner span {
+    display: block;
+    background-color: #fff;
+    height: 8px;
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.main_inner p {
+    font-size: 23px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+/* 두번째섹션설정 다양한시설소개설정 */
+section:nth-child(2) {
+    height: 800px;
+}
+.intro {
+    width: 100%;
+    
+}
+.intro .titleBox {
+}
+.intro .titleBox h2 {}
+.intro .titleBox p {}
+.intro .titleBox span {}
+
+.intro .listBox {
+    
+}
+.intro .listBox ul {
+    display: flex;
+    justify-content: space-around;
+}
+.intro .listBox li {
+    padding: 30px;
+    background-color: #fff;
+    transition: all 0.8s;
+}
+
+/* #244430 */
+/* .intro .listBox ul li:nth-child(1) {background-color: #999;}
+.intro .listBox ul li:nth-child(2) {background-color: #888;}
+.intro .listBox ul li:nth-child(3) {background-color: #777;} */
+
+.intro .listBox li div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #373737;
+    padding: 10px;
+}
+.intro .listBox a {}
+.intro .listBox img {width: 100%;}
+.intro .listBox h3 {
+    border-left: 9px solid #244430;
+    padding-left: 15px;
+    font-size: 26px;
+}
+.intro .listBox span {
+    font-size: 28px;
+}
+.intro .listBox p {
+    padding-top: 15px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.intro .listBox li:hover {
+    background-color: #244430;
+    padding: 40px;
+}
+
+.intro .listBox li:hover div {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+.intro .listBox li:hover h3 {
+    font-size: 32px;
+    color: #fff;
+    /* border-left: 12px solid rgba(255, 255, 255, 0.8); */
+    border-color: rgba(255, 255, 255, 0.8);
+}
+.intro .listBox li:hover span {
+    /* font-size: 32px; */
+    color: #fff;
+}
+.intro .listBox li:hover p {
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/* 세번째섹션설정 체험프로그램예약 */
+
+section:nth-child(3) {
+    height: 1000px;
+    background-image: url(img/section3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+.play_inner {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play_inner i {
+    font-size: 40px;
+}
+
+.play_inner_one {width: 10%; text-align: center;}
+.play_inner_tw {width: 80%; height: 600px;}
+.play_inner_thr {width: 10%; text-align: center;}
+
+/* 체험 설정*/
+.play_inner_tw>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+.play_inner_tw .form {
+    width: 40%;
+    padding: 20px;
+}
+
+/* 체험예약화면 각 사진 넣기 */
+.play_inner_tw .img_perfume {
+    width: 550px;
+    height: 500px;
+    padding: 0px;
+    margin-left: 20px;
+    background-image: url(img/play_perfume.jpg);
+    background-size: cover;
+}
+.play_inner_tw .img_soap {
+    width: 550px;
+    height: 500px;
+    padding: 0px;
+    margin-left: 20px;
+    background-image: url(img/play_soap.jpg);
+    background-size: cover;
+}
+.play_inner_tw .img_wax {
+    width: 550px;
+    height: 500px;
+    padding: 0px;
+    margin-left: 20px;
+    background-image: url(img/play_wax.jpg);
+    background-size: cover;
+}
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ */
+
+
+.play_inner_tw .form p {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.play_inner_tw .form h3 {
+    font-size: 30px;
+    font-family: "inter", "Poppins", sans-serif; 
+    color: #244430;
+    margin-bottom: 15px;
+}
+.play_inner_tw .form ul {
+    padding-bottom: 16px;
+}
+.play_inner_tw .form ul li {
+    background-color: #eee;
+    color: #373737;
+    padding: 16px 20px;
+    margin: 11px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play_inner_tw input {font-size: 18px;
+    border: none;
+    background-color: transparent;
+    color: #373737;
+}
+
+.play_inner_tw input:focus {outline: none;}
+/* 안돼ㅠㅠㅠㅠㅠ.play_inner_tw select:focus {outline: none;} */
+
+.play_inner_tw .form span {
+    background-color: #eee;
+    padding: 16px 20px;
+}
+
+.play_inner_tw .form a {
+    color: #244430;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.play_perfume .img a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play_perfume .img a {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    width: 100%;
+    /* text-align: center; */
+    /* line-height: 400px; */
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+   transition: all 0.8s;
+   opacity: 0;
+}
+
+.play_perfume .img:hover a {
+    opacity: 1;
+}
+/* 수정예정 */
+.play_inner_tw {position: relative;}
+.play_inner_tw .play_soap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.play_inner_tw .play_perfume {
+    position: absolute;
+    top: 0;
+    
+}
+.play_inner_tw .play_wax {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+/* 예약프로그램 아래 점 3개 */
+.listBox .btn {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.listBox .btn ul {
+    display: flex;
+}
+.listBox .btn li {
+    font-size: 10px;
+    padding: 0 6px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 네번째섹션설정   공지사항 자주묻는질문 */
+section:nth-child(4) {
+    height: 700px;
+    padding: 0;
+}
+.noti_qna {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.noticeBox {
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 75px;
+    padding-right: 50px;
+}
+.qnaBox {
+    width: 50%;
+    background-color: #244430;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+
+/* ㅁㅁㅁㅁ공지 질문 동일하게 설정ㅁㅁㅁㅁ */
+.noti_qna h2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.noti_qna ul {
+    padding: 0 10px;
+}
+.noti_qna a {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+.noti_qna span {padding: 0 15px;}
+/* ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ */
+
+
+.noticeBox .notice {
+    color: #373737;
+    padding: 0 30px;
+    width: 500px;
+}
+
+.noticeBox .notice h2 {
+    border-bottom: 1px solid #373737;
+}
+
+.noticeBox .notice ul {}
+.noticeBox .notice ul li {
+    padding: 20px;
+    border-bottom: 1px dotted #244430;
+}
+
+.noticeBox .notice a {
+    color: #373737;
+    transition: all 0.5s;
+}
+
+.qnaBox .qna {
+    padding: 0 30px;
+    width: 550px;
+}
+
+.qnaBox .qna h2 {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.qnaBox .qna div {}
+.qnaBox .qna div ul {
+    border-bottom: 1px dotted #fff;
+    padding: 20px;
+}
+.qnaBox .qna div ul li {
+    padding: 7px 0;
+    
+}
+.qnaBox .qna div ul li a {
+    color: #fff;
+    transition: all 0.5s;
+}
+
+
+/* 공지 질문  호버설정 */
+.noticeBox .notice ul li:hover {
+    background-color: #244430;
+    color: #fff;
+}
+.noticeBox .notice ul li:hover a {
+    color: #fff;}
+.qnaBox .qna ul:hover {
+    background-color: #fff;
+    color: #244430;
+}
+.qnaBox .qna ul:hover a {color: #244430;}
+
+
+
+
+
+
+
+
+
+/* 다섯번째섹션설정 포토갤러리 */
+/* ★★★★ 포토갤러리 사진들 질문 */
+section:nth-child(5) {
+    height: 700px;
+    width: 100%;
+}
+
+section:nth-child(5) .listBox {
+    width: 1440px;
+    position: relative;
+}
+section:nth-child(5) .listBox ul {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section:nth-child(5) .listBox ul li {
+   margin-right: 15px;
+}
+section:nth-child(5) .listBox ul li img {
+    height: 350px;
+}
+
+
+
+
+
+
+
+/* 여섯번째섹션설정  오시는길*/
+section:nth-child(6) {
+    height: 800px;
+}
+section:nth-child(6) .listBox {
+    display: flex;
+    align-items: center;
+}
+/* 구글지도*/
+.map {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.mapTxt {width: 40%;}
+
+.map img {max-width: 100%;}
+.mapTxt {}
+.mapTxt div {padding: 30px 0;}
+.mapTxt h3 {
+    background-color: #244430;
+    border: #244430 1px solid;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.mapTxt p {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.mapTxt span {font-size: 16px;}
+.mapTxt i {font-size: 30px;}
+
+
+
+
+
+
+
+
+/* 일곱번째섹션설정 주변관광안내 */
+section:nth-child(7) {
+    height: 800px;
+}
+
+.tourBox {
+    position: relative;
+}
+
+.tourBox ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex; 
+}
+.tourBox li {
+    padding: 10px 15px;
+    width: 525px;
+}
+.tourBox a {}
+.tourBox img {
+    width: 520px;
+    margin-bottom: 10px;
+}
+.tourBox h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.tourBox h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.tourBox p {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+/* 푸터설정 */
+footer {
+    height: 100px;
+}
+
+
+
+body {overflow-x: hidden;}
+
+
+
+
+
+
+/* ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■미디어쿼리구간■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ */
+
+/* 와이드데스크탑 설정 */
+
+/* 1280px 이상일때설정 */
+@media(min-width:1440px){
+
+
+    .header_inner, .main_inner, .intro,
+    .play, section:nth-child(6) .listBox,
+    .tourBox, .gallBox {
+        width: 1440px;
+        margin: 0 auto;}
+    
+}
